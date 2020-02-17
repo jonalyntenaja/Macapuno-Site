@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@font-face{
+    src: url(../Sacramento/Sacramento-Regular.ttf);
+    font-family: "sacramento";
+}
+.payong{
+    background-color: rgb(66, 2, 66);
+}
+
+body{
+    background: rgb(150, 25, 199);
+}
+
+.nav
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+
+    
+ 
+
+
+
+}
+
+
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #111;
+  }
+  
+.active 
+{
+    background-color: #4CAF50;
+}
+
+.home,.about
+{
+    float: left;
+  border-right:1px solid #bbb;
+}
+
+
+img{
+   width: 50%;
+   position: relative;
+   left: 25rem;
+   border: 6px solid rgb(101, 1, 141);
+}
+.Macapuno{
+    position: relative;
+    text-align: center;
+    font-size: 100px;
+    font-family: Sacramento;
+    color: rgb(4, 6, 109);
+}
+.Work{
+    text-align: center ;
+    list-style: none;
+    font-family: Chaparral Pro Light;
+    font-size: 25px;
+    color: rgb(19, 10, 10);
+}
+.social{
+    text-align: center ;
+    list-style: none;
+    font-family: Chaparral Pro Light;
+    font-size: 25px;
+    color: rgb(19, 10, 10);
+}
+.law{
+    text-align: center ;
+    list-style: none;
+    font-family: Chaparral Pro Light;
+    font-size: 25px;
+    color: rgb(19, 10, 10);
+}
+.tech{
+    text-align: center ;
+    list-style: none;
+    font-family: Chaparral Pro Light;
+    font-size: 25px;
+    color: rgb(19, 10, 10);
+}
+.Public{
+    text-align: center ;
+    list-style: none;
+    font-family:Chaparral Pro Light;
+    font-size: 25px;
+    color:rgb(19, 10, 10);
+}
+footer{
+    text-align: center;
+    list-style: none;
+    font-family:Chaparral Pro Light;
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+}
+
